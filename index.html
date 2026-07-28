@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>I. Pendahuluan</h1>
-    <h2>1.1. Latar Belakang</h2>
+    <div>
+        <h2>1.1. Latar Belakang</h2>
         <p>
             Pesatnya perkembangan teknologi informasi telah banyak dimanfaatkan oleh setiap 
             perusahaan dalam meningkatkan kualitas layanan terhadap masyarakat. Pengaruh dan peranan 
@@ -15,7 +16,9 @@
             banyak dimanfaatkan sebagian besar manusia khususnya yang melihat peluang bisnis dari 
             peranan TIK tersebut, seperti halnya <a href="./pages/latarBelakang.html">Bisnis</a> <em>online</em>.
         </p>
-    <h2>1.2. Rumusan Masalah</h2>
+    </div>
+    <div>
+        <h2>1.2. Rumusan Masalah</h2>
         <img src="./assets/tokosepatusendal.jpeg" alt="Toko Sepatu dan Sendal">
         <br/>    
         <caption><a href="https://www.nicofernando.my.id">Toko Sepatu dan Sendal</a></caption>
@@ -31,9 +34,76 @@
             mampu diakses pelanggan lain yang berada diluar daerah penjualan. 
         </p>
     
-    <h1>II. Kesimpulan dan Saran</h1>
+    <h1>II. Pembahasan</h1>
+    <h2>2.1. Penjelasan Atribut</h2>
+    <div>
+        <ul>
+            <li><em>Readonly</em></li>
+            <p>: Atribut ini dimiliki oleh elemen html seperti &lt;input&gt; dan &lt;textarea&gt;, yang dimana fungsinya agar pengguna tidak dapat mengetik atau menghapus atau melakukan tindakan terhadap kotak input. Jadi inputan tersebut hanya bisa dilihat dan tidak bisa melakukan action terhadap input tersebut.</p>
+            <li><em>Required</em></li>
+            <p>: Atribut ini dimiliki oleh elemen html seperti &lt;input&gt;, &lt;select&gt; dan &lt;textarea&gt;, yang dimana fungsinya mengingatkan user agar selalu mengisikan inputan jika inputan bisa diisikan. Biasanya ditandai dengan munculnya notifikasi dibawah input tersebut dengan "Please fill out this field"</p>
+            <li><em>Selected</em></li>
+            <p>: Atribut ini dimiliki oleh elemen html seperti &lt;option&gt;, yang dimana fungsinya untuk membuat pilihan tertentu yang kita inginkan terpilih otomatis</p>
+            <li><em>Checked</em></li>
+            <p>: Atribut ini dimiliki oleh elemen html seperti &lt;input&gt; bert-type "checkbox", yang dimana fungsinya untuk membuat kotak checkbox terpilih otomatis</p>
+        </ul>
+    </div>
+
+    <!-- Minitask 3 -->
+    <h2>2.2. Penggunaan Atribut</h2>  
+    <div>
+        <ul>
+            <li><em>Readonly</em></li>
+            <input type="text" readonly> <span>: &lt;input type="text" readonly&gt;</span>
+
+            <li><em>Required</em></li>
+            <input type="text" required> <span>: &lt;input type="text" required&gt;</span>
+
+            <li><em>Selected</em></li>
+            <select id="genre">
+                <option value="pilih" disabled selected>- Berikan Pilihan -</option>
+                <option value="action">Ya</option>
+                <option value="comedy">Tidak</option>
+            </select>
+            <br/>
+            <span>
+                &lt;select id="genre"&gt;<br/>
+                    &emsp;&lt;option value="pilih" disabled selected>- Berikan Pilihan -&lt;/option&gt;<br/>
+                    &emsp;&lt;option value="action"&gt;Ya&lt;/option&gt;<br/>
+                    &emsp;&lt;option value="comedy"&gt;Tidak&lt;/option&gt;<br/>
+                &lt;/select&gt;<br/>
+            </span>
+
+            <li><em>Checked</em></li>
+            <form>
+                <input type="checkbox"> Indomie<br>
+                <input type="checkbox" checked> Mie Sedap<br>
+                <input type="submit">
+            </form>
+            <span>
+                &lt;form&gt;<br/>
+                    &emsp;&lt;input type="checkbox"&gt; Indomie<br>
+                    &emsp;&lt;input type="checkbox" checked&gt; Mie Sedap<br>
+                    &emsp;&lt;input type="submit"&gt;<br/>
+                &lt;/form&gt;
+            </span>
+        </ul>
+    </div>
+    <h2>2.3. Hyperlink Minitask </h2>
+    <div>
+        <p>Berikut navigasi dari Minitask 4, 5 dan 6 tentang Basic HTML Structure: </p>
+        <!-- <a href="./latihan.html">Tampilan Latihan</a><br> -->
+         <ul>
+            <li><a href="./pages/talentKoda9.html">Minitask 4</a></li>
+            <li><a href="./pages/surveyPenonton.html">Minitask 5</a></li>
+            <li><a href="./pages/dataSurvey.html">Minitask 6</a></li>
+         </ul>
+    </div>
+
+    
+    <h1>III. Kesimpulan dan Saran</h1>
     <div> 
-        <h2>2.1. Kesimpulan</h2>
+        <h2>3.1. Kesimpulan</h2>
         <p>
             Dari hasil analisis yang telah dilakukan maka penulis dapat mengambil beberapa kesimpulan 
             diantaranya sebagai berikut: 
@@ -52,7 +122,7 @@
         </ol>
     </div>
     <div>
-        <h2>2.2. Saran</h2>
+        <h2>3.2. Saran</h2>
         <label>Masukkan Nama anda:</label><br/>
         <input type="text"><br/>
         <label>Berikan saran membangun:</label><br/>

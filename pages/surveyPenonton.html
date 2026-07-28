@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Penonton Film</title>
+</head>
+<body>
+    <h2>Survey Penonton Film</h2>
+    <form >
+        <div>
+            <label for="name">Nama :</label><br/>
+            <input type="text" placeholder="Masukkan Nama anda" id="name">
+        </div>
+        <div>
+            <label for="age">Umur :</label><br>
+            <input type="text" placeholder="Masukkan Umur anda" id="age">
+        </div>
+        <div>
+            <p>Jenis Kelamin :</p>
+            <input type="radio" id="laki" name="gender">
+            <label for="laki">Pria</label>
+            <input type="radio" id="cewek" name="gender">
+            <label for="cewek">Wanita</label>
+        </div>
+        <div>
+            <label for="genre">Apakah anda hobi menonton film :</label><br>
+            <select id="genre">
+                <option value="pilih" disabled selected>- Berikan Pilihan -</option>
+                <option value="action">Ya</option>
+                <option value="comedy">Tidak</option>
+            </select>
+        </div>
+        <div>
+            <p>Genre Film yang anda sukai :</p>
+            <input type="checkbox" id="action">
+            <label for="action">Action</label>
+            <input type="checkbox" id="comedy">
+            <label for="comedy">Comedy</label>
+            <input type="checkbox" id="drama">
+            <label for="drama">Drama</label>
+            <input type="checkbox" id="horror">
+            <label for="horror">Horror</label>
+            <input type="checkbox" id="romance">
+            <label for="romance">Romance</label>
+            <input type="checkbox" id="scifi">
+            <label for="scifi">Sci-fi</label>
+            <input type="checkbox" id="thriller">
+            <label for="thriller">Thriller</label>
+            <input type="checkbox" id="fantasi">
+            <label for="fantasi">Fantasi</label>
+            <input type="checkbox" id="animasi">
+            <label for="animasi">Animasi</label>
+        </div>
+        <a href="./dataSurvey.html">submit</a>
+    </form>
+</body>
+</html>

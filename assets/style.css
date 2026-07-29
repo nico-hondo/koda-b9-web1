@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+KR:wght@100..900&family=Germania+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap'); */
+body{
+    margin: 80px 80px 20px 80px;
+}
+ol.cobaFont>li{
+    font-family: "Noto Sans JP", serif;
+}
+div.saran>div{
+    margin-top: 20px;
+}
+.btnSubmit{
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(61, 61, 220);
+    border: 0.5px solid;
+    border-radius: 5px;
+    padding: 10px;
+}

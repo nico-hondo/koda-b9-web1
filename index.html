@@ -4,12 +4,21 @@
     <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Koda 9  Web | Home</title>
+    <style>
+        div.rumusan>p{
+            font-family: "Noto Sans KR", serif;
+        }
+        ul.atribut>li{
+            font-weight: 900;
+        }
+    </style>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <h1>I. Pendahuluan</h1>
     <div>
         <h2>1.1. Latar Belakang</h2>
-        <p>
+        <p style="font-family: 'Cormorant Garamond', serif;">
             Pesatnya perkembangan teknologi informasi telah banyak dimanfaatkan oleh setiap 
             perusahaan dalam meningkatkan kualitas layanan terhadap masyarakat. Pengaruh dan peranan 
             TIK (Teknologi Informasi dan Komunikasi) terhadap kehidupan manusia sangat penting, karena 
@@ -17,11 +26,11 @@
             peranan TIK tersebut, seperti halnya <a href="./pages/latarBelakang.html">Bisnis</a> <em>online</em>.
         </p>
     </div>
-    <div>
+    <div class="rumusan">
         <h2>1.2. Rumusan Masalah</h2>
         <img src="./assets/tokosepatusendal.jpeg" alt="Toko Sepatu dan Sendal">
         <br/>    
-        <caption><a href="https://www.nicofernando.my.id">Toko Sepatu dan Sendal</a></caption>
+        <caption><a href="https://www.nicofernando.my.id" style="text-decoration: none;">Toko Sepatu dan Sendal</a></caption>
         <p> 
             Toko Tiga Dara terus mengalami perkembangan dan akhirnya sudah membuka cabang kedua di sekitaran 
             toko awal, hal itu menunjukkan bahwa pelanggan toko ini sudah banyak dan ramai dikunjungi. 
@@ -37,7 +46,7 @@
     <h1>II. Pembahasan</h1>
     <h2>2.1. Penjelasan Atribut</h2>
     <div>
-        <ul>
+        <ul class="atribut">
             <li><em>Readonly</em></li>
             <p>: Atribut ini dimiliki oleh elemen html seperti &lt;input&gt; dan &lt;textarea&gt;, yang dimana fungsinya agar pengguna tidak dapat mengetik atau menghapus atau melakukan tindakan terhadap kotak input. Jadi inputan tersebut hanya bisa dilihat dan tidak bisa melakukan action terhadap input tersebut.</p>
             <li><em>Required</em></li>
@@ -52,7 +61,7 @@
     <!-- Minitask 3 -->
     <h2>2.2. Penggunaan Atribut</h2>  
     <div>
-        <ul>
+        <ul class="atribut">
             <li><em>Readonly</em></li>
             <input type="text" readonly> <span>: &lt;input type="text" readonly&gt;</span>
 
@@ -108,7 +117,7 @@
             Dari hasil analisis yang telah dilakukan maka penulis dapat mengambil beberapa kesimpulan 
             diantaranya sebagai berikut: 
         </p>
-        <ol>
+        <ol class="cobaFont">
             <li>
                 Dengan adanya rancangan website penjualan pada Toko Tiga Dara akan memudahkan 
                 pelanggan dalam mengetahui informasi mengenai produk juga melakukan pemesanan tanpa 
@@ -121,13 +130,15 @@
             </li>
         </ol>
     </div>
-    <div>
+    <div class="saran">
         <h2>3.2. Saran</h2>
         <label>Masukkan Nama anda:</label><br/>
         <input type="text"><br/>
         <label>Berikan saran membangun:</label><br/>
         <input type="text"><br/>
-        <input type="submit">
+        <div>
+            <a href="https://www.nicofernando.my.id" class="btnSubmit">Submit</a>
+        </div>
     </div>
 </body>
 </html>

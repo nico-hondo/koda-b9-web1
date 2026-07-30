@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+KR:wght@100..900&family=Germania+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+    --background-primary: rgb(57, 57, 203);
+    --background-secondary: rgb(206, 152, 52); 
+}
 *{
     margin: 0;
 }
@@ -130,3 +135,35 @@ header.minitask3 nav ul{
     font-weight: 600;
     text-decoration: none
  }
+
+ /* Minitask 04 */
+input[type="email"]{
+    border-color: red;
+}
+button[data-role="primary"]{
+    border: 2px solid #2a15e7
+}
+article[data-status="error"]{
+    color: red;
+}
+.table tbody>tr:nth-child(even){
+    background-color: var(--background-secondary);
+}
+.table tbody>tr:nth-child(odd){
+    background-color: var(--background-primary);
+}
+.table thead>tr{
+    background-color:darkgray;
+}
+section#lists >ul >li:nth-child(even){
+    background-color: aqua;
+}
+.btn:hover{
+    cursor: pointer;
+}
+article > h2 ~ p{
+    &::first-letter{
+        font-size: 30px;
+        font-weight: 600;
+    }
+}

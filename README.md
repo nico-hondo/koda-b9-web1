@@ -1,3 +1,5 @@
+# Basic HTML Structure#
+
 **Minitask 1 - index.html**
 
 ```bash
@@ -48,4 +50,39 @@ $ latarbelakang.html & $ rumusan.html
 - Membuat halaman baru dan memberikan hyperlink di index.html
 - Membuat tabel yang dimana menghimpun data dari form survey yang ada diminitask 5 dengan susunan format tabel yang baik dan benar
 - Mengisi tabel dengan isian yang memungkinkan jika form survey berhasil disubmit sebanyak 10 data.
+```
+
+# Basic CSS Styling and Layouting
+
+**Minitask 01 - style.css**
+
+```bash
+<!-- Checking completed tasks -->
+- Menerapkan bentuk obsolete mejadi bentuk css
+- Menghindari penggunaan obsolete tag terhadap tugas selanjutnya
+```
+
+**Minitask 02 - kalenderUI.html**
+
+```bash
+- Membuat halaman baru dan memberikan hyperlink di index.html
+- Membuat kalender bulan ini tanpa penggunaan tabel
+- Memanfaatkan basic layout 
+- Menggunakan display untuk mengatur behaviour div
+```
+
+**Minitask 03 - minitask03.html**
+
+```bash
+- Membuat halaman baru dan memberikan hyperlink di index.html
+- Memberikan ukuran 2 kali tinggi viewport terhadap halaman
+- Membuat header yang berisikan navigasi dan memberikan position sticky
+- Membuat tombol linkedin custom yang mengambang di sebelah kanan bawah dengan position fixed
+- Memberikan hyperlink terhadap tombol linkedin yang dimana ketika diklik, membuka tab baru dengan properti target pada element <a> dan menuju halaman linkedin profile
+```
+
+**Minitask 04 - advance.html**
+
+```bash
+- Memberikan css terhadap halaman baru dengan ketentuan yang ada, dimana ketentuan tersebut menggunakan css pseudo class, css pseudo element, css custom properties/variables, advanced css selector dan beberapa materi seperti display dan position
 ```

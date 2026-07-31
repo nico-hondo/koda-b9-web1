@@ -9,9 +9,7 @@
 }
 body{
     margin: 0px 0 20px 0;
-}
-#minitask{
-    margin: 40px 80px 20px 80px;
+    height: 200vh;
 }
 #minitask h1{
     margin-top: 1em;
@@ -72,33 +70,20 @@ div.day>.date:hover{
 
 /* minitask 03 */
 header.minitask3{
-    height: 70px;
+    background-color: hsla(180, 100%, 50%, 0.8);
     position: sticky;
     top: 0;
     z-index: 10;
-    background-color: hsla(0, 0%, 100%, 0.9);
-}
-header.minitask3 i{
-    width: 2px;
-    height: 2px;
-}
-header.minitask3 nav ul{
-    padding: 0;
     text-align: center;
-    padding: 25px 0;
 }
- header.minitask3 li{
+header.minitask3 > nav li{
     list-style-type: none;
-    display: inline-block;
-    margin-right: 30px;
- }
- header.minitask3 a{
+    padding: 20px;
+}
+header.minitask3 > nav li > a{
     text-decoration: none;
-    color: rgb(97, 88, 88);
-    font-family: arial;
-    font-weight:600;
-    font-size: 16px;
- }
+    color: black;
+} 
  .konten{
     position: absolute;
     top: 50%;
@@ -165,5 +150,57 @@ article > h2 ~ p{
     &::first-letter{
         font-size: 30px;
         font-weight: 600;
+    }
+}
+header.advance{
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+    header.minitask3{
+        background-color: hsla(180, 100%, 50%, 0.8);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        text-align: center;
+        display: block;
+    }
+    header.minitask3 > nav li{
+        list-style-type: none;
+        padding: 20px;
+    }
+    header.minitask3 > nav li > a{
+        text-decoration: none;
+        color: black;
+    }   
+}
+@media screen and (max-width: 1024px){
+    header.minitask3{
+        height: 70px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: hsla(0, 0%, 100%, 0.9);
+    }
+    header.minitask3 i{
+        width: 2px;
+        height: 2px;
+    }
+    header.minitask3 nav ul{
+        padding: 0;
+        text-align: center;
+        padding: 25px 0;
+    }
+    header.minitask3 li{
+        list-style-type: none;
+        display: inline-block;
+        margin-right: 30px;
+    }
+    header.minitask3 a{
+        text-decoration: none;
+        color: rgb(97, 88, 88);
+        font-family: arial;
+        font-weight:600;
+        font-size: 16px;
     }
 }

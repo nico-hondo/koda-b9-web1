@@ -4,8 +4,11 @@
     --background-primary: rgb(57, 57, 203);
     --background-secondary: rgb(206, 152, 52); 
 }
-*{
+*,
+*::before,
+*::after {
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     margin: 0px 0 20px 0;
@@ -156,24 +159,44 @@ header.advance{
     display: inline-block;
 }
 
-@media screen and (max-width: 768px){
-    header.minitask3{
-        background-color: hsla(180, 100%, 50%, 0.8);
-        position: sticky;
-        top: 0;
-        z-index: 10;
-        text-align: center;
-        display: block;
-    }
-    header.minitask3 > nav li{
-        list-style-type: none;
-        padding: 20px;
-    }
-    header.minitask3 > nav li > a{
-        text-decoration: none;
-        color: black;
-    }   
+/* Minitask 02 - flex */
+header.minitask02{
+    position: sticky;
+    top: 0;
+    z-index: 100vh;
+    background-color: black;
+    color: white;
 }
+header.minitask02 nav > ul{
+    /* display: flex; */
+    gap: 10px;
+    padding: 0;
+}
+header.minitask02 nav > ul li{
+    list-style-type: none;
+}
+header.minitask02 nav > ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.kontenFlex{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.kontenFlex .test{
+    flex-basis: 100px;
+    background-color: black;
+    height: 50px;
+    &:nth-child(2){
+        flex-grow: 1;
+        flex-shrink: 2;
+    }
+}
+
 @media screen and (max-width: 1024px){
     header.minitask3{
         height: 70px;
@@ -203,4 +226,40 @@ header.advance{
         font-weight:600;
         font-size: 16px;
     }
+    header.minitask02{
+        display: flex;
+        justify-content: space-between;
+    }
+    header.minitask02 nav > ul{
+        display: flex;
+    }
+}
+@media screen and (max-width: 768px){
+    header.minitask3{
+        background-color: hsla(180, 100%, 50%, 0.8);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        text-align: center;
+        display: block;
+        height: 25vh;
+    }
+    header.minitask3 > nav ul{
+        padding: 0;
+    }
+    header.minitask3 > nav li{
+        list-style-type: none;
+        display: block;
+    }
+    header.minitask3 > nav li > a{
+        text-decoration: none;
+        color: black;
+    } 
+    header.minitask02{
+        display: block;
+
+    }
+    header.minitask02 nav > ul{
+        display: block;
+    }  
 }

@@ -107,8 +107,8 @@ $ latarbelakang.html & $ rumusan.html
 ```bash
 - Membuat Kalkulator dengan menggunakan display grid
 - Memberikan responsif
-- Preview
-![More Than 1024](./assets/morethan1024.png)
-![Between 769 && 1024](./assets/between769&1024.png)
-![Less Than 769](./assets/less769.png)
+- Preview Minitask 3
 ```
+<img width="1903" height="943" alt="morethan1024" src="https://github.com/user-attachments/assets/80a06e2b-3988-4f96-be17-3d0b5e36ad3f" />
+<img width="1916" height="833" alt="between769 1024" src="https://github.com/user-attachments/assets/fa50912a-5951-49b9-93cc-7586847fbebf" />
+<img width="1896" height="937" alt="less769" src="https://github.com/user-attachments/assets/8809bd83-bf67-4ec5-8c55-9ef5666884e3" />
